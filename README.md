@@ -19,7 +19,8 @@ cat model.json
     "Linear 512 10"
   ]
 } 
->> model = ModelBuilder().build_from_file("model.json")
+>> import model_builder
+>> model = model_builder.build_from_file("model.json")
 Sequential(
   (0): Reshape(3, 28, 28)
   (1): ReLU()
