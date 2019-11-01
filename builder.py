@@ -72,6 +72,6 @@ class ModelBuilder(object):
 
 
 if __name__ == '__main__':
-    filename = "model.json"
+    filename = "configs/model.json"
     model = ModelBuilder().build_from_file(filename)
     print(model)
