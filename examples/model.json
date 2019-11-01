@@ -1,8 +1,7 @@
 {
   "sequential": [
     "Reshape 3 28 28",
-    "ReLU",
-    "Conv1d 3 16 5",
+    "Conv2d 3 16 5",
     "MaxPool2d 2",
     "ReLU",
     "Conv2d 16 32 5",
