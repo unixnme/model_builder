@@ -1,6 +1,5 @@
-## PytorchModelBuilder
-This project is to build a pytorch model from a simple json file.
-The idea is to separate out the model definition as a json file from actual python code as much as possible.
+## ModelBuilder
+Separate out the model definition as a json file from actual python code!
 
 ### Example
 ```
@@ -36,5 +35,5 @@ Sequential(
 ``` 
 
 ### Supported layers
-all pytorch default layers from torch.nn <br>
+all pytorch default layers from torch.nn with the exact same params<br>
 Reshape(*channels) will reshape the output to (B, *channels)
